@@ -26,9 +26,13 @@ class Counter extends Component {
 
     increment(by) {
         // console.log(`parent be called by child ${by}`);
-        this.setState({
-            count: this.state.count + by
-        })
+        // prev參數是這個component的上一個state
+        this.setState((prev) => {
+                return {
+                    count: prev.count + by
+                }
+            }
+        )
     }
 }
 
