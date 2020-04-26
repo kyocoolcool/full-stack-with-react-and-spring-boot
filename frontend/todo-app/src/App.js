@@ -10,7 +10,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Counter/>
+              <Counter/>
             </div>
         );
     }
@@ -19,7 +19,7 @@ class App extends Component {
 export default App;
 
 
-class LearningComponent extends Component{
+class LearningComponent extends Component {
     render() {
         return (
             <div className="LearningComponent">
