@@ -23,3 +23,5 @@
 hs_err_pid*
 
 package-lock.json
+.idea/
+node_modules/
