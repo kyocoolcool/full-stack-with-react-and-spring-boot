@@ -3,8 +3,8 @@ import "./Counter.css"
 import PropTypes from "prop-types";
 
 class Counter extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             count: 0
         };
